@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeelingGoo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Playwrite+IN:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Index.html">FeelingGoo</a>
+        </div>
+        <!-- ปุ่มเปลี่ยนภาพพื้นหลัง -->
+        <div class="btn-bg">
+            <button id="toggle-background">
+                <i id="toggle-icon" class="fas fa-sun"></i></button>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="playlist-con">
+                <ul>
+                    <li><button class="category-button" data-playlist="relaxing"><span>Relax</span></button></li>
+                    <li><button class="category-button" data-playlist="reading"><span>Focus</span></button></li>
+                    <li><button class="category-button" data-playlist="sleeping"><span>Sleeping</span></button></li>
+                    <li><button class="category-button" data-playlist="chilling"><span>Chilling</span></button></li>
+                    <li><button class="category-button" data-playlist="productivity"><span>Productivity</span></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <div class="btn-container">
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/wind_44100-27055.mp3">
+                    <i class="fas fa-wind"></i> Wind
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/a-train-on-the-railways-169416.mp3">
+                    <i class="fas fa-train"></i> Train
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/Bird-sound.mp3">
+                    <i class="fas fa-bird"></i> Bird
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/cozy-soft-rain-under-umbrella-116183.mp3">
+                    <i class="fas fa-umbrella"></i> Rain
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/Flowing-water-sound.mp3">
+                    <i class="fas fa-water"></i> Flowing Water
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/sea-waves-169411.mp3">
+                    <i class="fas fa-water"></i> Wave
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/soft-piano-sound.mp3">
+                    <i class="fas fa-music"></i> Piano
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/library-sound.mp3">
+                    <i class="fas fa-book"></i> Library
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/202502021155.mp4">
+                    <i class="fas fa-fish"></i> Whale
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/Fireplace-sound.mp3">
+                    <i class="fas fa-fire"></i> Fire
+                </button>
+                <button class="sound-button"
+                    data-sound="/ProjectDesige/Audio/ticking-clock-sound-effect-1-mp3-edition-264451.mp3">
+                    <i class="fas fa-clock"></i> Clock
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/serene-crystal-singing-bowls-29521.mp3">
+                    <i class="fas fa-gem"></i> Crystal Bowls
+                </button>
+                <button class="sound-button" data-sound="/ProjectDesige/Audio/steps-on-dry-leaves-8000.mp3">
+                    <i class="fas fa-leaf"></i> Leaves
+                </button>
+
+            </div>
+        </main>
+        <div class="box-con">
+            <button id="stop-all-sounds">Clear!</button>
+        </div>
+
+        <div class="puzzle">
+            <button><a href="/Fifteenpuzzle/My resume.html" target="_blank" rel="noopener noreferrer">Game puzzle</a>
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 FeelingGoo All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
